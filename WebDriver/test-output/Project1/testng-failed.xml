@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Project1]">
+  <test name="Module1(failed)">
+    <classes>
+      <class name="testnggg.Test1">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="f"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testnggg.Test1 -->
+      <class name="testnggg.Test2">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="f"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testnggg.Test2 -->
+    </classes>
+  </test> <!-- Module1(failed) -->
+</suite> <!-- Failed suite [Project1] -->
